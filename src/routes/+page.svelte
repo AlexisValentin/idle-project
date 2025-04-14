@@ -1,5 +1,10 @@
 <script lang="ts">
-  import WelcomeForm from "../libs/WelcomeForm.svelte"
+  import { browser } from '$app/environment'
+  import FactoryName from '$lib/FactoryName.svelte'
 </script>
 
-<WelcomeForm />
+<h1>Welcome to the idle project</h1>
+
+{#if browser}
+  <FactoryName />
+{/if}
