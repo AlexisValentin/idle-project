@@ -14,7 +14,7 @@
 
     if (htmlElement?.value) {
       if (isEditingFactoryName) isEditingFactoryName = false
-      saveToLocalStorage(LOCAL_STORAGE_KEYS.FACORY_NAME, htmlElement.value)
+      saveToLocalStorage(LOCAL_STORAGE_KEYS.FACTORY_NAME, htmlElement.value)
 
       return htmlElement.value
     }

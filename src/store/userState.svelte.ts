@@ -6,5 +6,5 @@ interface UserState {
 }
 
 export const userState = $state<UserState>({
-  factoryName: getFromLocalStorage(LOCAL_STORAGE_KEYS.FACORY_NAME),
+  factoryName: getFromLocalStorage(LOCAL_STORAGE_KEYS.FACTORY_NAME),
 })

@@ -1,3 +1,4 @@
 export enum LOCAL_STORAGE_KEYS {
-  FACORY_NAME = 'factoryName',
+  FACTORY_NAME = 'factoryName',
+  MINING_MODULES = 'miningModules',
 }

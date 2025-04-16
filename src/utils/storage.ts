@@ -8,7 +8,7 @@ export const getFromLocalStorage = (key: LOCAL_STORAGE_KEYS) => {
 
 export const saveToLocalStorage = (key: LOCAL_STORAGE_KEYS, value: any) => {
   if (typeof localStorage !== 'undefined')
-    return localStorage.setItem(key, value)
+    return localStorage.setItem(key, JSON.stringify(value))
 
   return null
 }
